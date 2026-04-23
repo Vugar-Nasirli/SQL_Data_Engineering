@@ -1,6 +1,6 @@
 # 🔍 Exploratory Data Analysis w/ SQL: Job Market Analytics
 
-![EDA Project Overview](/Docs/EDA_Project_Overview.png)
+![EDA Project Overview](../Docs/EDA_Project_Overview.png)
 
 A SQL project analyzing the data engineer job market using real world job posting data. It demonstrates my ability to **write production-quality analytical SQL, design efficient queries, and turn business questions into data-driven insights**.
 
@@ -15,9 +15,9 @@ A SQL project analyzing the data engineer job market using real world job postin
 
 If you only have a minute, review these:
 
-1. **[`01_top_demanded_skills.sql`](/Scripts/1_most_in_demand_skills.sql)** – demand analysis with multi-table joins  
-2. **[`02_top_paying_skills.sql`](/Scripts/2_most_highest_paid_skills.sql)** – salary analysis with aggregations  
-3. **[`03_optimal_skills.sql`](/Scripts/3_most_optimal_skills.sql)** – combined demand/salary optimization query  
+1. **[`01_top_demanded_skills.sql`](/./1_most_in_demand_skills.sql)** – demand analysis with multi-table joins  
+2. **[`02_top_paying_skills.sql`](/./2_most_highest_paid_skills.sql)** – salary analysis with aggregations  
+3. **[`03_optimal_skills.sql`](/./3_most_optimal_skills.sql)** – combined demand/salary optimization query  
 
 ---
 
@@ -33,11 +33,11 @@ This project analyzes a **data warehouse** built using a star schema design. The
 
 **Datawarehouse Structure**
 
-![Data Warehouse Structure](/Docs/DB_Schema_Diagram.png)  
+![Data Warehouse Structure](../Docs/DB_Schema_Diagram.png)  
 
 **ERD - Entity Relationship Diagram**
 
-![Data Warehouse ERD](/Docs/ER_Diagram.png)
+![Data Warehouse ERD](../Docs/ER_Diagram.png)
 
 - **Fact Table:** `job_postings_fact` - Central table containing job posting details (job titles, locations, salaries, dates, etc.)
 - **Dimension Tables:** 
@@ -63,7 +63,7 @@ By querying across these interconnected tables, I extracted insights about skill
 ## 📂 Repository Structure
 
 ```text
-EDA_Project/
+Scripts/
 ├── 1_most_in_demanded_skills.sql    # Demand analysis query
 ├── 2_most_highest_paid_skills.sql   # Salary analysis query
 ├── 3_most_optimal_skills.sql        # Combined demand/salary optimization
@@ -75,9 +75,9 @@ EDA_Project/
 
 ### Query Structure
 
-1. **[Top Demanded Skills](/Scripts/1_most_in_demand_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
-2. **[Top Paying Skills](/Scripts/2_most_highest_paid_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
-3. **[Optimal Skills](/Scripts/3_most_optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn
+1. **[Top Demanded Skills](/./1_most_in_demand_skills.sql)** – Identifies the 10 most in-demand skills for remote data engineer positions
+2. **[Top Paying Skills](/./2_most_highest_paid_skills.sql)** – Analyzes the 25 highest-paying skills with salary and demand metrics
+3. **[Optimal Skills](/./3_most_optimal_skills.sql)** – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn
 
 ### Key Insights
 
