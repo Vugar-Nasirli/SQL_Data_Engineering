@@ -29,3 +29,12 @@
 
 -- Step 9 Marts - Priority Mart - Updating Priority roles and snapshot
 .read 09_update_priority_mart.sql
+
+-- Step 10: Data Validation of Priorty Mart
+.read 10_data_validation_priority_mart.sql
+
+-- Step 11: Create Company Mart
+.read 11_create_company_mart.sql
+
+-- Step 12: Validating Data Company Mart
+.read 12_data_validation_company_mart.sql
