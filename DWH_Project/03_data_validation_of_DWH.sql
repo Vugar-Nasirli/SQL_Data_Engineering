@@ -1,5 +1,8 @@
 -- Step 3: Data Validation
 
+SELECT '===== Data Validation for Data Warehouse =====' AS info;
+SELECT table_catalog, table_schema, table_name FROM information_schema.tables;
+
 -- 1. Checking Data Entry Counts
 SELECT '===== Table Entry Counts: =====' AS info;
 SELECT 'company_dim' AS table, COUNT(*) AS entry_count FROM company_dim
