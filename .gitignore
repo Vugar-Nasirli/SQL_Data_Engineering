@@ -10,6 +10,7 @@
 /data/intermediate/
 /exports/
 dataset/
+DWH_Project/Job_Mart_Practice/
 
 # 🔐 Secrets
 .env
